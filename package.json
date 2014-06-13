@@ -1,0 +1,27 @@
+{
+  "name": "alloysocks",
+  "version": "0.0.0",
+  "description": "AlloySocks",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "http-proxy": "~1.1.4",
+    "express": "~4.4.3",
+    "spdy": "~1.26.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noevil/alloysocks.git"
+  },
+  "author": "Noevil",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/noevil/alloysocks/issues"
+  }
+}
