@@ -1,6 +1,7 @@
 var express = require('express');
 var https = require('https');
 var http = require('http');
+var fs = require('fs');
 var router = require('./lib/router');
 var app = express();
 
