@@ -7,9 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "http-proxy": "~1.1.4",
-    "express": "~4.4.3",
-    "spdy": "~1.26.5"
+    "express": "~4.4.3"
   },
   "devDependencies": {},
   "scripts": {
