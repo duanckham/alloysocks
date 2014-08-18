@@ -10,6 +10,7 @@ var options = {
 	cert: fs.readFileSync(__dirname + '/ca/alloysocks-cert.pem')
 };
 
+app.use(express.static(__dirname + '/html'));
 app.use('/', router);
 
 http.createServer(app).listen(10001);
